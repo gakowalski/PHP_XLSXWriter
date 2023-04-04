@@ -1,5 +1,6 @@
-PHP_XLSXWriter
-==============
+# PHP_XLSXWriter
+
+## Introduction
 
 This library is designed to be lightweight, and have minimal memory usage.
 
@@ -11,7 +12,31 @@ It is designed to output an Excel compatible spreadsheet in (Office 2007+) xlsx 
 * supports basic cell styling
 * supports writing huge 100K+ row spreadsheets
 
-[Never run out of memory with PHPExcel again](https://github.com/mk-j/PHP_XLSXWriter).
+Never run out of memory with PHPExcel again!
+
+## Install through composer
+
+Add to `composer.json`:
+
+```
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gakowalski/PHP_XLSXWriter"
+        }
+    ]
+```
+
+Then add this:
+```
+    "require": {
+        ...
+        "gakowalski/php_xlsxwriter": "^0.38.1",
+        ...
+    },
+```
+
+## Examples and basic info
 
 Simple PHP CLI example:
 ```php
